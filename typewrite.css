@@ -1,8 +1,5 @@
 body{
-    background-color: blue;
+    background-color: black;
     color: beige;
     font-family: "Source Code Pro" monospace;
 } 
-p::first-letter{
-    color: aqua;
-}
