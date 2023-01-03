@@ -1,5 +1,23 @@
+/*keep the same font throughout the whole website, or change based on different parts of the page, how to code for a responsive website */           
 body{
-    background-color: black;
-    color: rgb(222, 220, 245);
+    background-color: rgb(247, 247, 247);
+    color: rgb(41, 195, 82);
     font-family: "Source Code Pro" monospace;
-} 
+}
+/*Check the indicators on w3schools*/
+/* Pixels, ems and how they relate to responsive design*/
+/*Currently for 16:10 aspect ratio machine*/
+h1{
+ text-align: center;
+ background-color: rgb(111, 139, 111);
+ padding: 20px;
+ margin: 30px;
+ 
+}
+
+h2{
+    text-align:center;
+    background-color: rgb(162, 255, 0);
+    padding: 10px;
+    margin 20px;
+}
