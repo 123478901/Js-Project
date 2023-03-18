@@ -1,11 +1,4 @@
-#Webpage clone
+#Welcome webpage
 
-For now a basic web page, trying out a few things on the fly and some testing out
-
-
-
-
-
-
-Things to check:
-React, tailwing, bootstrap
+This is a simple welcome page
+More details concerning the welcome page will be available at a later stage.
