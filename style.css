@@ -1,23 +1,39 @@
 /*keep the same font throughout the whole website, or change based on different parts of the page, how to code for a responsive website */           
 body{
-    background-color: rgb(247, 247, 247);
-    color: rgb(41, 195, 82);
+    background-color: rgba(173, 89, 178, 0.7) ;
+    color: rgba(122, 218, 230, 0.5);
     font-family: "Source Code Pro" monospace;
 }
-/*Check the indicators on w3schools*/
-/* Pixels, ems and how they relate to responsive design*/
-/*Currently for 16:10 aspect ratio machine*/
+/* Add the 3 lines above my h1 element */
+
 h1{
  text-align: center;
- background-color: rgb(111, 139, 111);
+max-width: 70%;
+min-width: 40%;
  padding: 20px;
  margin: 30px;
- 
+ position:absolute;
 }
 
-h2{
-    text-align:center;
-    background-color: rgb(162, 255, 0);
-    padding: 10px;
-    margin: 20px;
+.Qoutes menu {
+    position: relative;
+
 }
+
+.hamburger {
+    width: 30px;
+    height: 30px;
+
+}
+
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin-bottom:5px;
+}
+
+.dropdown{
+
+}
+/* Create a hamburger menu at the top of my screen on the left hand side of my h1 element */
